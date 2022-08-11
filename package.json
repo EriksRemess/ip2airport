@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "author": "Ēriks Remess <eriks@remess.lv>",
-  "license": "SEE LICENSE IN README.md",
+  "license": "MIT",
   "type": "module",
   "dependencies": {
     "geoip-lite": "^1.4.6"
