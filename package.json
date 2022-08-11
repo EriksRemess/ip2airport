@@ -1,12 +1,18 @@
 {
   "name": "ip2airport",
   "version": "0.0.3",
-  "description": "",
+  "description": "IP to nearest airport lookup",
   "main": "index.js",
   "author": "Ēriks Remess <eriks@remess.lv>",
   "license": "MIT",
   "type": "module",
+  "scripts": {
+    "update": "node update.js"
+  },
   "dependencies": {
     "geoip-lite": "^1.4.6"
+  },
+  "optionalDependencies": {
+    "node-fetch": "^3.2.10"
   }
 }
