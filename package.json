@@ -1,6 +1,6 @@
 {
   "name": "ip2airport",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "IP to nearest airport lookup",
   "main": "index.js",
   "author": "Ēriks Remess <eriks@remess.lv>",
