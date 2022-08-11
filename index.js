@@ -39,7 +39,7 @@ export default class IP2Airport {
       if (distance < radius) {
         list.push({
           ...airport,
-          distance: parseInt(distance)
+          distance: parseFloat(distance)
         });
       }
     }
