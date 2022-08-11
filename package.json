@@ -1,0 +1,12 @@
+{
+  "name": "ip2airport",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "Ēriks Remess <eriks@remess.lv>",
+  "license": "SEE LICENSE IN README.md",
+  "type": "module",
+  "dependencies": {
+    "geoip-lite": "^1.4.6"
+  }
+}
