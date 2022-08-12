@@ -1,6 +1,6 @@
 {
   "name": "ip2airport",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "IP to nearest airport lookup",
   "module": "index.js",
   "main": "dist/index.js",
@@ -17,8 +17,8 @@
   },
   "exports": {
     ".": {
-        "import": "./index.js",
-        "require": "./dist/index.js"
+      "import": "./index.js",
+      "require": "./dist/index.js"
     }
   }
 }
