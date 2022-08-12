@@ -2,10 +2,10 @@
   "name": "ip2airport",
   "version": "0.0.6",
   "description": "IP to nearest airport lookup",
-  "main": "index.js",
+  "module": "index.js",
+  "main": "dist/index.js",
   "author": "Ēriks Remess <eriks@remess.lv>",
   "license": "MIT",
-  "type": "module",
   "scripts": {
     "update": "node update.js"
   },
@@ -14,5 +14,11 @@
   },
   "optionalDependencies": {
     "node-fetch": "^3.2.10"
+  },
+  "exports": {
+    ".": {
+        "import": "./index.js",
+        "require": "./dist/index.js"
+    }
   }
 }
