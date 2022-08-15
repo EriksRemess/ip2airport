@@ -1,8 +1,8 @@
 import geoip from 'geoip-lite';
 import { createRequire } from 'module';
+
 const require = createRequire(import.meta.url);
 const airports = require('./airports.json');
-
 const { lookup } = geoip;
 
 export default class IP2Airport {
@@ -55,7 +55,3 @@ export default class IP2Airport {
     return list;
   }
 }
-
-
-
-const ip2airport = new IP2Airport();

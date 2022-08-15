@@ -1,7 +1,7 @@
-const geoip = require('geoip-lite');
 const airports = require('../airports.json');
-
+const geoip = require('geoip-lite');
 const { lookup } = geoip;
+
 class IP2Airport {
   constructor() {}
   distance(lat1, lon1, lat2, lon2, unit) {
