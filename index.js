@@ -59,4 +59,3 @@ export default class IP2Airport {
 
 
 const ip2airport = new IP2Airport();
-ip2airport.nearest('80.232.245.200').then(console.log);
