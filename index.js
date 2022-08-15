@@ -1,10 +1,15 @@
 import geoip from 'geoip-lite';
-import airports from './airports.js';
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+const airports = require('./airports.json');
 
 const { lookup } = geoip;
 
 export default class IP2Airport {
   constructor() {}
+  airports() {
+    return airports;
+  }
   distance(lat1, lon1, lat2, lon2, unit) {
     const radlat1 = Math.PI * lat1 / 180;
     const radlat2 = Math.PI * lat2 / 180;
@@ -50,3 +55,8 @@ export default class IP2Airport {
     return list;
   }
 }
+
+
+
+const ip2airport = new IP2Airport();
+ip2airport.nearest('80.232.245.200').then(console.log);

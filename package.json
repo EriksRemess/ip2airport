@@ -6,6 +6,7 @@
   "main": "dist/index.js",
   "author": "Ēriks Remess <eriks@remess.lv>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "update": "node update.js"
   },

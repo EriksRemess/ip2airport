@@ -19,4 +19,4 @@ for (let nr = 1; nr < lines.length; nr++) {
   }
 }
 
-fs.writeFile('airports.js', 'export default ' + JSON.stringify(data, null, 2) + ';\n', 'utf8');
+fs.writeFile('./airports.json', JSON.stringify(data, null, 2), 'utf8');

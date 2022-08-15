@@ -1,4 +1,4 @@
-export default [
+[
   {
     "country_code": "MH",
     "region_name": "Utirik Island",
@@ -3535,8 +3535,8 @@ export default [
     "iata": "YVM",
     "airport": "Qikiqtarjuaq Airport",
     "ll": [
-      67.5457992554,
-      -64.03140258789999
+      67.546232,
+      -64.031754
     ]
   },
   {
@@ -19375,8 +19375,8 @@ export default [
     "iata": "BYM",
     "airport": "Carlos Manuel de Cespedes Airport",
     "ll": [
-      20.396400451660156,
-      -76.62139892578125
+      20.3964,
+      -76.621399
     ]
   },
   {
@@ -19473,10 +19473,10 @@ export default [
     "country_code": "CU",
     "region_name": "Manzanillo",
     "iata": "MZO",
-    "airport": "Sierra Maestra Airport",
+    "airport": "Sierra Maestra International Airport",
     "ll": [
-      20.28809928894043,
-      -77.08920288085938
+      20.288605,
+      -77.087545
     ]
   },
   {
@@ -26945,8 +26945,8 @@ export default [
     "iata": "ZPC",
     "airport": "Pucón Airport",
     "ll": [
-      -39.29280090332031,
-      -71.91590118408203
+      -39.292801,
+      -71.915901
     ]
   },
   {
@@ -29373,10 +29373,10 @@ export default [
     "country_code": "KZ",
     "region_name": "Zhezkazgan",
     "iata": "DZN",
-    "airport": "Zhezkazgan Airport",
+    "airport": "Zhezkazgan National Airport",
     "ll": [
-      47.708302,
-      67.733299
+      47.708953,
+      67.738094
     ]
   },
   {
@@ -39039,4 +39039,4 @@ export default [
       129.451004028
     ]
   }
-];
+]

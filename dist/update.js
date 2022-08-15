@@ -17,6 +17,5 @@ const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch
       })
     }
   }
-
-  fs.writeFile('airports.js', 'module.exports = exports = ' + JSON.stringify(data, null, 2) + ';\n', 'utf8');
+  fs.writeFile('../airports.json', JSON.stringify(data, null, 2), 'utf8');
 })();

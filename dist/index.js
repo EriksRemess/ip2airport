@@ -1,9 +1,8 @@
 const geoip = require('geoip-lite');
-const airports = require('./airports.js');
+const airports = require('../airports.json');
 
 const { lookup } = geoip;
-
-module.exports = exports = class IP2Airport {
+class IP2Airport {
   constructor() {}
   distance(lat1, lon1, lat2, lon2, unit) {
     const radlat1 = Math.PI * lat1 / 180;
@@ -51,3 +50,4 @@ module.exports = exports = class IP2Airport {
   }
 }
 
+module.exports = exports = IP2Airport;
