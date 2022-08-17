@@ -30,7 +30,7 @@ export default class IP2Airport {
     }
     return dist.toFixed(2);
   }
-  async nearest(ip, radius = null, limit = 10, unit = 'K') {
+  async location(ip) {
     if (!ip) {
       throw new Error('ip is required');
     }
@@ -38,6 +38,10 @@ export default class IP2Airport {
     if (!location) {
       throw new Error('ip is not valid or location not found');
     }
+    return location;
+  }
+  async nearest(ip, radius = null, limit = 10, unit = 'K') {
+    const location = await this.location(ip);
     let list = [];
     for (const airport of airports) {
       const distance = this.distance(location.ll[0], location.ll[1], airport.ll[0], airport.ll[1], unit);
@@ -56,3 +60,7 @@ export default class IP2Airport {
     return list;
   }
 }
+
+
+const ip2airport = new IP2Airport();
+ip2airport.location('80.232.245.200').then(console.log);

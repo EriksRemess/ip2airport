@@ -1565,8 +1565,8 @@
     "iata": "YWM",
     "airport": "Williams Harbour Airport",
     "ll": [
-      52.566898345947266,
-      -55.784698486328125
+      52.567377,
+      -55.784883
     ]
   },
   {
@@ -2065,8 +2065,8 @@
     "iata": "YAY",
     "airport": "St. Anthony Airport",
     "ll": [
-      51.3918991089,
-      -56.083099365200006
+      51.391909,
+      -56.08321
     ]
   },
   {
@@ -2201,7 +2201,7 @@
   },
   {
     "country_code": "CA",
-    "region_name": "Lourdes-de-Blanc-Sablon",
+    "region_name": "Blanc-Sablon",
     "iata": "YBX",
     "airport": "Lourdes-de-Blanc-Sablon Airport",
     "ll": [
@@ -2215,8 +2215,8 @@
     "iata": "YRF",
     "airport": "Cartwright Airport",
     "ll": [
-      53.68280029296875,
-      -57.041900634765625
+      53.682501,
+      -57.042303
     ]
   },
   {
@@ -2335,8 +2335,8 @@
     "iata": "YDP",
     "airport": "Nain Airport",
     "ll": [
-      56.549198150634766,
-      -61.680301666259766
+      56.550778,
+      -61.682224
     ]
   },
   {
@@ -2465,8 +2465,8 @@
     "iata": "YMN",
     "airport": "Makkovik Airport",
     "ll": [
-      55.076900482177734,
-      -59.1864013671875
+      55.077335,
+      -59.187942
     ]
   },
   {
@@ -2655,8 +2655,8 @@
     "iata": "YHO",
     "airport": "Hopedale Airport",
     "ll": [
-      55.448299407958984,
-      -60.228599548339844
+      55.448757,
+      -60.228124
     ]
   },
   {
@@ -2865,8 +2865,8 @@
     "iata": "XGR",
     "airport": "Kangiqsualujjuaq (Georges River) Airport",
     "ll": [
-      58.71139907836914,
-      -65.9927978515625
+      58.711399,
+      -65.992798
     ]
   },
   {
@@ -2885,8 +2885,8 @@
     "iata": "YMH",
     "airport": "Mary's Harbour Airport",
     "ll": [
-      52.302799224853516,
-      -55.847198486328125
+      52.302837,
+      -55.847626
     ]
   },
   {
@@ -35371,12 +35371,12 @@
   },
   {
     "country_code": "AU",
-    "region_name": "Ayers Rock",
+    "region_name": "Yulara",
     "iata": "AYQ",
     "airport": "Ayers Rock Connellan Airport",
     "ll": [
-      -25.1861,
-      130.975998
+      -25.185913,
+      130.97703
     ]
   },
   {
@@ -35395,8 +35395,8 @@
     "iata": "ASP",
     "airport": "Alice Springs Airport",
     "ll": [
-      -23.806699752807617,
-      133.90199279785156
+      -23.806588,
+      133.903427
     ]
   },
   {
@@ -35711,12 +35711,12 @@
   },
   {
     "country_code": "AU",
-    "region_name": "",
+    "region_name": "Coober Pedy",
     "iata": "CPD",
     "airport": "Coober Pedy Airport",
     "ll": [
-      -29.040000915527344,
-      134.7209930419922
+      -29.038312,
+      134.722166
     ]
   },
   {
@@ -36571,7 +36571,7 @@
   },
   {
     "country_code": "AU",
-    "region_name": "OZ Minerals Prominent Hill Mine",
+    "region_name": "Mount Eba",
     "iata": "PXH",
     "airport": "Prominent Hill Airport",
     "ll": [
@@ -36811,12 +36811,12 @@
   },
   {
     "country_code": "AU",
-    "region_name": "",
+    "region_name": "Thargomindah",
     "iata": "XTG",
     "airport": "Thargomindah Airport",
     "ll": [
-      -27.986400604248047,
-      143.81100463867188
+      -27.986368,
+      143.812065
     ]
   },
   {
