@@ -60,7 +60,3 @@ export default class IP2Airport {
     return list;
   }
 }
-
-
-const ip2airport = new IP2Airport();
-ip2airport.location('80.232.245.200').then(console.log);
